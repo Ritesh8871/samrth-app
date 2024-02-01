@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "DM Sans" !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+  overflow-x: hidden !important;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+
+/* Chrome, Safari, Edge, Opera input chnage*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
+}
+.rounded-5
+{
+  border-radius: 8%;
+  border: 2px solid blue;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination
+{
+  position: static !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a:hover
+{
+  color : #FAA831;
+}
